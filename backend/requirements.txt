@@ -1,0 +1,10 @@
+fastapi>=0.115
+uvicorn[standard]>=0.30
+python-multipart>=0.0.9
+httpx>=0.27
+pillow>=10.4
+pydantic-settings>=2.4
+# Only needed if VISION_PROVIDER=anthropic
+anthropic>=0.40
+# dev / tests
+pytest>=8.0

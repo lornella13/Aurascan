@@ -1,0 +1,9 @@
+node_modules/
+dist/
+.env
+.venv/
+__pycache__/
+# Local caches: curated photos and the Unsplash request counter
+.cache/
+.pytest_cache/
+*.pyc
